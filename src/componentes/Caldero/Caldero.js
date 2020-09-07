@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import styles from './Caldero.module.css';
 import caldero from '../../assets/img/caldero.png'
 
@@ -7,18 +7,18 @@ const Caldero = ({pociones}) => {
     return(
         <div className={styles.base}>
             <h4>CALDERO</h4>
-            <img className={styles.img} src={caldero} />
+            <img className={styles.img} src={caldero} alt='caldero' />
             <div>
                 {pociones.map( pocion => {
-                    if(pocion.cantidad > 0)
-                    return(
-                        <div key={pocion.id}>
-                            <p className={styles.tituloPocion}>{pocion.nombre} <span> {pocion.cantidad} </span></p>
-                            <div className={styles.cajaCantidad} style={{ backgroundColor: pocion.color, width: pocion.cantidad*30 }}></div>
-                        </div>
-                    )
-                }
-                 )}
+                    if(pocion.cantidad > 0){
+                        return(
+                            <div key={pocion.id}>
+                                <p className={styles.tituloPocion}>{pocion.nombre} <span> {pocion.cantidad} </span></p>
+                                <div className={styles.cajaCantidad} style={{ backgroundColor: pocion.color, width: pocion.cantidad*30 }}></div>
+                            </div>
+                        )
+                    }
+                } ) }
             </div>
         </div>
     )

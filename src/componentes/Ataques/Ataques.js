@@ -38,7 +38,7 @@ const Ataques = ({respuesta}) => {
     return(
         <div className={styles.base}>
             <h4>ATAQUES</h4>
-            <img className={styles.img} src={mago} />
+            <img className={styles.img} src={mago} alt='mago' />
             <div>
                 {ataques}
             </div>
