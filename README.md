@@ -43,4 +43,4 @@ Para realizar la compilación del proyecto y ejecutarla en producción:
 
 ### `npm run build`
 
-**Esperando que este proyecto sea de su agrado, y que pueda generar una oportunidad de trabajar con ustedes y su equipo, lo cual para mi sería un error**
+**Esperando que este proyecto sea de su agrado, y que pueda generar una oportunidad de trabajar con ustedes y su equipo, lo cual para mi sería un Honor**
