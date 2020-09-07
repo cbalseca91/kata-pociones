@@ -34,7 +34,7 @@ Para realizar las pruebas:
 
 ### `npm test`
 
-La pruebas se encuentran en la carpeta **\_\_test\_\_** como buenas prácticas de ReactJS, se realizaron las pruebas de:
+La pruebas se encuentran en la carpeta **\_\_test\_\_** como buenas prácticas de ReactJS, se realizaron las pruebas de:<br />
 **- Pruebas del algoritmo de la generación de ataques.**<br />
 **- Pruebas de la renderización de los componentes a partir de datos como Pociones.**<br />
 **- Entre otras como la evaluación de nodos a partir de un caso de prueba**<br />
