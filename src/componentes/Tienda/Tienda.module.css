@@ -1,0 +1,27 @@
+.base {
+    background-color: lightyellow;
+    height: 300px;
+    width: 260px;
+    border-style: groove;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 0px 15px;
+}
+.boton {
+    border-radius: 50%;
+    border-style: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.nombrePocion {
+    display: inline-block;
+    width: 60%;
+    padding: 5px 30px;
+    font-size: 1em;
+    font-weight: bold;
+}
