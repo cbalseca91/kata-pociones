@@ -1,68 +1,46 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Autor
+Christian Ricardo Balseca Núñez.
 
-In the project directory, you can run:
+## Descripción
+
+Se ha creado un proyecto en base a los requerimientos indicados, los cuales se ha decido hacer tipo juego que se actualice en tiempo real, es decir mientras se van cambiando las combinación de pociones, este se va actualizando y generando el mejor ataque del Mago.
+
+En la primera sección, se escogeran las pociones de la tienda, y estos pasarán por el caldero y predecirá el mejor ataque del Mago.
+
+## Pociones Posible
+**Pocion Roja**
+**Pocion Azul**
+**Pocion Verde**
+**Pocion Amarilla**
+**Pocion Gris**
+
+## Comandos Básicos
+
+Para clonar el proyecto, desde GIT usar el comando:
+
+### `git clone https://github.com/cbalseca91/kata-pociones.git`
+
+Para arrancar el proyecto, ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+La aplicación correrá a manera de desarrollo<br />
+Ir a [http://localhost:3000](http://localhost:3000) para poder visualizar y hacer Debug.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
+Para realizar las pruebas:
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La pruebas se encuentran en la carpeta **\_\_test\_\_** como buenas prácticas de ReactJS, se realizaron las pruebas de:
+**- Pruebas del algoritmo de la generación de ataques.**
+**- Pruebas de la renderización de los componentes a partir de datos como Pociones.**
+**- Entre otras como la evaluación de nodos a partir de un caso de prueba**
+
+Para realizar la compilación del proyecto y ejecutarla en producción:
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Esperando que este proyecto sea de su agrado, y que pueda generar una oportunidad de trabajar con ustedes y su equipo, lo cual para mi sería un error**
