@@ -10,11 +10,11 @@ Se ha creado un proyecto en base a los requerimientos indicados, los cuales se h
 En la primera sección, se escogeran las pociones de la tienda, y estos pasarán por el caldero y predecirá el mejor ataque del Mago.
 
 ## Pociones Posible
-**Pocion Roja**
-**Pocion Azul**
-**Pocion Verde**
-**Pocion Amarilla**
-**Pocion Gris**
+**Pocion Roja**<br />
+**Pocion Azul**<br />
+**Pocion Verde**<br />
+**Pocion Amarilla**<br />
+**Pocion Gris**<br />
 
 ## Comandos Básicos
 
@@ -35,9 +35,9 @@ Para realizar las pruebas:
 ### `npm test`
 
 La pruebas se encuentran en la carpeta **\_\_test\_\_** como buenas prácticas de ReactJS, se realizaron las pruebas de:
-**- Pruebas del algoritmo de la generación de ataques.**
-**- Pruebas de la renderización de los componentes a partir de datos como Pociones.**
-**- Entre otras como la evaluación de nodos a partir de un caso de prueba**
+**- Pruebas del algoritmo de la generación de ataques.**<br />
+**- Pruebas de la renderización de los componentes a partir de datos como Pociones.**<br />
+**- Entre otras como la evaluación de nodos a partir de un caso de prueba**<br />
 
 Para realizar la compilación del proyecto y ejecutarla en producción:
 
